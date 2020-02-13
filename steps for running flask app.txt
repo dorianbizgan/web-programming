@@ -1,0 +1,26 @@
+Steps to making the venv stuff
+
+1. cd assignment1: be inside assignment1: 
+2. python3 -m venv venv    : creates the virtual environment folder
+3. source venv/bin/activate : activates the virtual environment
+4. pip install -r requirements.txt : installs the libraries inside of the requirements.txt file 
+
+
+Open Two Terminals 
+------------------
+
+	Terminal 1: 
+	-----------
+	export FLASK_APP=[app_name].py
+	python -m flask run 
+	(for zsh python3 -m pip install -r requirements.txt 
+	
+	Useful Website: https://stackoverflow.com/questions/51188027/terminal-error-flask-run-zsh-command-not-found-flask)
+
+	Terminal 2:
+	-----------
+	curl http://locahold:5000/
+
+
+Notes:
+When executing curl command on zshell, make sure that the url is in "quotations".
